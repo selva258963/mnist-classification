@@ -51,7 +51,7 @@ Fit the model and predict the single input
 
 ### Name: SELVAMUTHU KUMARAN V
 ### Register Number: 212222040151
-
+```PYTHON
 import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
@@ -119,7 +119,7 @@ img_28_gray_scaled = img_28_gray.numpy()/255.0
 plt.imshow(img_28_gray_scaled.reshape(28,28),cmap='gray')
 x_single_prediction = np.argmax(model.predict(img_28_gray_scaled.reshape(1,28,28,1)),axis=1)
 print(x_single_prediction)
-
+```
 
 ## OUTPUT
 
