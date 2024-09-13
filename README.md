@@ -13,7 +13,7 @@ The MNIST dataset stands as a cornerstone in both machine learning and computer 
 
 ## Neural Network Model
 
-c:\Users\SEC\Pictures\Screenshots\Screenshot (96).png
+![alt text](<Screenshot (96)-1.png>)
 
 ## DESIGN STEPS
 
@@ -125,8 +125,8 @@ print(x_single_prediction)
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
+![alt text](image-1.png)
 ![alt text](image.png)
-![alt text](image-7.png)
 
 ### Classification Report
 
